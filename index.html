@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="engUS">
+<head>
+<meta charset="utf-8">
+<title>Portfolio tryout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<link rel="stylesheet" type="text/css" href="port.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <i></i>
+                </div>
+
+                <nav>
+                    <div class="ham">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li class="btn"><a href="#">Contact Me</a></li>
+                    </ul>
+                    <nav>
+                    </nav>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="row">
+                <div class="text">
+                    <h3>Hello</h3>
+                    <h1>I am <span class="input"></span></h1>
+                    <p>This is a simple portfolio showcasing my skills 
+                    </br>I am a UI/UX Designer, Cybersecurity Analyst, and a Software Developer</p>
+                    <button type="button">Download CV</button>
+                    </div>
+                    <div class="image">
+                        <img src="images/girl.jpg">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p>@ 2025 Cassy Shane</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings :["Cassy Shane.", "a Graphics Designer.", "a UI/UX Designer.", "a Cybersecurity Analyst" ],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+</body>
+</html>
